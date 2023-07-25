@@ -42,6 +42,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 .header__title {
   max-width: 601px;
   font-size: 66px;
@@ -77,6 +81,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -151,6 +159,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -244,7 +256,7 @@
   color: white;
 }
 
-.staff__card {
+.staff__cards {
   max-width: 760px;
   margin-top: 68px;
   display: flex;
@@ -395,11 +407,11 @@
   display: flex;
 }
 
-.footer__column_content_hours {
+.footer__column_hours {
   margin-left: auto;
 }
 
-.footer__column_content_social {
+.footer__column_social {
   margin-left: 100px;
 }
 
