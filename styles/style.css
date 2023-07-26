@@ -91,6 +91,7 @@
   margin: 0;
   color: #838383;
 }
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -257,14 +258,13 @@
 }
 
 .staff__cards {
+  padding: 0;
+  margin: 68px auto 0;
   max-width: 760px;
-  margin-top: 68px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
+  list-style-type: none;
 }
 
 .card {
@@ -274,7 +274,6 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  list-style-type: none;
 }
 
 .card__content {
